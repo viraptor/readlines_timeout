@@ -38,7 +38,7 @@ TIMEOUT = Timeout()
 
 
 def readlines(open_file, timeout, callback=None, read_size=8*1024,
-               keepends=False):
+              keepends=False):
     """
     Iterate over lines from a given file object, additionally notifying
     about timeouts while waiting for another line. Timeout is reset after
